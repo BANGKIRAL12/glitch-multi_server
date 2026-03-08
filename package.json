@@ -1,0 +1,23 @@
+{
+  "name": "glitch-multi_server",
+  "version": "1.0.0",
+  "description": "mini home multi server for backend tools",
+  "keywords": [
+    "server"
+  ],
+  "homepage": "https://github.com/BANGKIRAL12/glitch-multi_server#readme",
+  "bugs": {
+    "url": "https://github.com/BANGKIRAL12/glitch-multi_server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BANGKIRAL12/glitch-multi_server.git"
+  },
+  "license": "ISC",
+  "author": "kiral",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
