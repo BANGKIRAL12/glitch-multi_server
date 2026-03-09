@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express()
 const glitchRoutes = require('./src/routes/glitch');
-const port = 3000
+const config = require('./config/config.json')
+const port = config.server.port
 
 app.use(express.json());
 app.use('/glitch', glitchRoutes);
